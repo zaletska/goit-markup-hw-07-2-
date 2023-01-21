@@ -449,11 +449,12 @@ header {
     flex-direction: column;
     align-items: center;
   }
-}
-
-.feature-list .item:not(:last-child) {
+  .feature-list .item:not(:last-child) {
   margin-bottom: 72px;
 }
+}
+
+
 
 @media screen and (min-width: 768px) and (max-width: 1199.98px) {
   .feature-list {
@@ -687,6 +688,12 @@ header {
   .social-media .text,
   .subscribe-form .text {
     text-align: center;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .subscribe-form .text {
+    margin-left: -55px;
   }
 }
 
@@ -1043,7 +1050,7 @@ textarea {
   color: rgba(255, 255, 255, 0.6);
 }
 
-@media screen and (min-width: 768px), (min-width: 1200px) {
+@media screen and (max-width: 437.98px), (min-width: 768px), (min-width: 1200px) {
   .subscription-form-input {
     width: 264px;
   }
